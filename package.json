@@ -1,0 +1,29 @@
+{
+  "name": "base-webpack",
+  "version": "1.0.0",
+  "description": "模仿webpack写的一款简化版打包工具",
+  "main": "app.js",
+  "bin": "./bin/webpack.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youzaiyouzai666/base-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "caoyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youzaiyouzai666/base-webpack/issues"
+  },
+  "homepage": "https://github.com/youzaiyouzai666/base-webpack#readme",
+  "dependencies": {
+    "yargs": "^8.0.2"
+  }
+}
