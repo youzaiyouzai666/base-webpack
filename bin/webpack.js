@@ -7,7 +7,7 @@ const webpack = require('../lib/webpack');
 console.log('test-->>argv:', argv);
 
 //入参处理
-let options      = {
+const options      = {
     input : '',
     output: ''
 };
