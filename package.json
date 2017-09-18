@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/youzaiyouzai666/base-webpack#readme",
   "dependencies": {
+    "co": "^4.6.0",
     "yargs": "^8.0.2"
   }
 }

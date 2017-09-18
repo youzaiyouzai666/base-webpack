@@ -24,6 +24,8 @@
         /******/        module.loaded = true;
 
         /******/        // Return the exports of the module
+        console.log(module.exports);
+        debugger;
         /******/        return module.exports;
         /******/    }
 
@@ -45,7 +47,8 @@
     /* 0 */
     /***/ function(module, exports) {
 
-        console.log('index');
+        var chunk1=1;
+        exports.chunk1=chunk1;
 
         /***/ }
     /******/ ]);
