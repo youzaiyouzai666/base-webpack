@@ -39,7 +39,8 @@ var gen = function* (){
     console.log(r2.toString());
 };
 
-/*function run(fn) {
+/**方式1
+function run(fn) {
     var gen = fn();
 
     function next(err, data) {
@@ -51,8 +52,15 @@ var gen = function* (){
     next();
 }
 run(gen);*/
-//co(gen);
 
+
+/**方式2
+  co(gen);
+ */
+
+
+
+/*方式3*/
 var g = gen();
 
 var r1 = g.next();
