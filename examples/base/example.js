@@ -1,3 +1,3 @@
-let a = require('a');
+let a = require('./a');
 a();
 
