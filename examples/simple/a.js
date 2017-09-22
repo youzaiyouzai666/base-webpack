@@ -1,8 +1,8 @@
 // ========module a
 let b = require  ('./b');
-const c = require('./c');
+let b2 = require('./b2');
 module.exports = function () {
     console.log('a');
     b();
-    c();
+    b2();
 };

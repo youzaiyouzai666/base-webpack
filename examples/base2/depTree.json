@@ -1,0 +1,69 @@
+{
+  "modules": {
+    "E:\\demo2\\base-webpack\\examples\\base2\\example.js": {
+      "id": 0,
+      "source": "//example.js\r\nlet a = require('./a');\r\n\r\na();\r\n\r\n\r\n",
+      "requires": [
+        {
+          "name": "E:\\demo2\\base-webpack\\examples\\base2\\a.js",
+          "nameRange": [
+            30,
+            35
+          ],
+          "requireRange": [
+            22,
+            29
+          ],
+          "id": 1
+        }
+      ],
+      "fileName": "E:\\demo2\\base-webpack\\examples\\base2\\example.js",
+      "name": "E:\\demo2\\base-webpack\\examples\\base2\\example.js"
+    },
+    "E:\\demo2\\base-webpack\\examples\\base2\\a.js": {
+      "id": 1,
+      "source": "// ========module a\r\nconst b = require  ('./b');\r\nmodule.exports = function () {\r\n    console.log('a');\r\n    b();\r\n};",
+      "requires": [
+        {
+          "name": "E:\\demo2\\base-webpack\\examples\\base2\\b.js",
+          "nameRange": [
+            41,
+            46
+          ],
+          "requireRange": [
+            31,
+            38
+          ],
+          "id": 2
+        }
+      ],
+      "fileName": "E:\\demo2\\base-webpack\\examples\\base2\\a.js",
+      "name": "E:\\demo2\\base-webpack\\examples\\base2\\a.js"
+    },
+    "E:\\demo2\\base-webpack\\examples\\base2\\b.js": {
+      "id": 2,
+      "source": "// =============module b\r\nconst a = require  ('./a');\r\nmodule.exports = function () {\r\n    console.log('b');\r\n    a();\r\n};",
+      "requires": [
+        {
+          "name": "E:\\demo2\\base-webpack\\examples\\base2\\a.js",
+          "nameRange": [
+            46,
+            51
+          ],
+          "requireRange": [
+            36,
+            43
+          ],
+          "id": 1
+        }
+      ],
+      "fileName": "E:\\demo2\\base-webpack\\examples\\base2\\b.js",
+      "name": "E:\\demo2\\base-webpack\\examples\\base2\\b.js"
+    }
+  },
+  "mapModuleNameToId": {
+    "E:\\demo2\\base-webpack\\examples\\base2\\example.js": 0,
+    "E:\\demo2\\base-webpack\\examples\\base2\\a.js": 1,
+    "E:\\demo2\\base-webpack\\examples\\base2\\b.js": 2
+  }
+}

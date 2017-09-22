@@ -16,9 +16,11 @@
 /******/0: function(module, exports, __webpack_require__) {
 
 //example.js
-let a = __webpack_require__(/* E:\demo2\base-webpack\examples\base\a.js */1);
+let a = __webpack_require__(/* E:\demo2\base-webpack\examples\base3\a.js */1);
+let b = __webpack_require__(/* E:\demo2\base-webpack\examples\base3\b.js */2);
 
 a();
+b();
 
 
 
@@ -28,12 +30,10 @@ a();
 /******/1: function(module, exports, __webpack_require__) {
 
 // ========module a
-let b = __webpack_require__(/* E:\demo2\base-webpack\examples\base\b.js */2);
-const c = __webpack_require__(/* E:\demo2\base-webpack\examples\base\node-modules\c.js */3);
+let b = __webpack_require__(/* E:\demo2\base-webpack\examples\base3\b.js */2);
 module.exports = function () {
     console.log('a');
     b();
-    c();
 };
 
 /******/},
@@ -43,14 +43,6 @@ module.exports = function () {
 // =============module b
 module.exports = function () {
     console.log('b');
-};
-
-/******/},
-/******/
-/******/3: function(module, exports, __webpack_require__) {
-
-module.exports = function () {
-    console.log('c');
 };
 
 /******/},
