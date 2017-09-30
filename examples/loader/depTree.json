@@ -1,0 +1,14 @@
+{
+  "modules": {
+    "E:\\demo2\\base-webpack\\examples\\loader\\example.js": {
+      "id": 0,
+      "source": "require('./style.less');\r\n",
+      "requires": [],
+      "fileName": "E:\\demo2\\base-webpack\\examples\\loader\\example.js",
+      "name": "E:\\demo2\\base-webpack\\examples\\loader\\example.js"
+    }
+  },
+  "mapModuleNameToId": {
+    "E:\\demo2\\base-webpack\\examples\\loader\\example.js": 0
+  }
+}

@@ -8,7 +8,16 @@ const webpack = require('../lib/webpack');
 const options    = {
     input  : '',
     output : '',
-    context: ''
+    context: '',
+    rules  : [
+        {
+            test: /\.less$/,
+            use : [
+                'style-loader',
+                'less-loader'
+            ]
+        }
+    ]
 };
 let inParameters = argv._ || [];//[]
 if (!inParameters.length) {//无传入参数
@@ -30,5 +39,6 @@ if (inParameters.length === 1) {
         options.output = path.join(context, output)
     }
 }
+
 
 webpack(options);

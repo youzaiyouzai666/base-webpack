@@ -26,6 +26,8 @@
   "dependencies": {
     "co": "^4.6.0",
     "esprima": "^4.0.0",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
     "yargs": "^8.0.2"
   }
 }
