@@ -21,3 +21,7 @@ base-webpack examples/base/example.js   //构建output.js
  ```
 
 
+## 参考
+1. [[webpack]源码解读：命令行输入webpack的时候都发生了什么？](https://github.com/DDFE/DDFE-blog/issues/12)
+2. [Webpack 源码（一）—— Tapable 和 事件流](https://segmentfault.com/a/1190000008060440)
+3. [webpack插件 API(Plugin API)](https://doc.webpack-china.org/api/plugins/)

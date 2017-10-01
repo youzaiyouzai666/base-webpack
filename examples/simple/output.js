@@ -1,21 +1,22 @@
 /******/(function(modules) {
-/******/	var installedModules = {};
-/******/	function require(moduleId) {
-/******/		if(installedModules[moduleId])
-/******/			return installedModules[moduleId].exports;
-/******/		var module = installedModules[moduleId] = {
-/******/			exports: {}
-/******/		};
-/******/		modules[moduleId](module, module.exports, require);
-/******/		return module.exports;
-/******/	}
-/******/	return require(0);
-/******/})
-/******/({
-/******/0: function(module, exports, require) {
+    /******/	var installedModules = {};
+    /******/	function __webpack_require__(moduleId) {
+        /******/		if(installedModules[moduleId])
+        /******/			return installedModules[moduleId].exports;
+        /******/		var module = installedModules[moduleId] = {
+            /******/			exports: {},
+                                id: moduleId
+            /******/		};
+        /******/		modules[moduleId].call(module.exports,module, module.exports, __webpack_require__);
+        /******/		return module.exports;
+        /******/	}
+    /******/	return __webpack_require__(0);
+    /******/})
+/************************************************************************//******/({
+/******/0: function(module, exports, __webpack_require__) {
 
 //example.js
-let a = require(/* ./a */1);
+let a = __webpack_require__(/* E:\demo2\base-webpack\examples\simple\a.js */1);
 
 a();
 
@@ -24,11 +25,11 @@ a();
 
 /******/},
 /******/
-/******/1: function(module, exports, require) {
+/******/1: function(module, exports, __webpack_require__) {
 
 // ========module a
-let b = require  (/* ./b */2);
-let b2 = require(/* ./b2 */4);
+let b = __webpack_require__(/* E:\demo2\base-webpack\examples\simple\b.js */2);
+let b2 = __webpack_require__(/* E:\demo2\base-webpack\examples\simple\b2.js */4);
 module.exports = function () {
     console.log('a');
     b();
@@ -37,10 +38,10 @@ module.exports = function () {
 
 /******/},
 /******/
-/******/2: function(module, exports, require) {
+/******/2: function(module, exports, __webpack_require__) {
 
 // =============module b
-let c = require(/* ./c */3);
+let c = __webpack_require__(/* E:\demo2\base-webpack\examples\simple\c.js */3);
 module.exports = function () {
     console.log('b');
     c();
@@ -48,7 +49,7 @@ module.exports = function () {
 
 /******/},
 /******/
-/******/3: function(module, exports, require) {
+/******/3: function(module, exports, __webpack_require__) {
 
 // ============module c
 module.exports = function () {
@@ -57,7 +58,7 @@ module.exports = function () {
 
 /******/},
 /******/
-/******/4: function(module, exports, require) {
+/******/4: function(module, exports, __webpack_require__) {
 
 // ===========module b2
 module.exports = function () {

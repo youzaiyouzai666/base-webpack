@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "模仿webpack写的一款简化版打包工具",
   "main": "app.js",
-  "bin": "./bin/webpack.js",
+  "bin": {
+    "base-webpack":"./bin/webpack.js"
+  },
+
   "directories": {
     "doc": "doc"
   },
@@ -25,6 +28,7 @@
   "homepage": "https://github.com/youzaiyouzai666/base-webpack#readme",
   "dependencies": {
     "co": "^4.6.0",
+    "debug": "^3.1.0",
     "esprima": "^4.0.0",
     "less-loader": "^4.0.5",
     "style-loader": "^0.18.2",
