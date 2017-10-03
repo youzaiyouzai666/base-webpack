@@ -1,0 +1,132 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "Identifier",
+            "name": "require",
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 7
+              }
+            }
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": "E:\\demo2\\fake-webpack\\node_modules\\style-loader-fake\\addStyle",
+              "raw": "\"E:\\\\demo2\\\\fake-webpack\\\\node_modules\\\\style-loader-fake\\\\addStyle\"",
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 8
+                },
+                "end": {
+                  "line": 1,
+                  "column": 76
+                }
+              }
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 77
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 78
+                },
+                "end": {
+                  "line": 1,
+                  "column": 85
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "!E:\\demo2\\fake-webpack\\examples\\loader\\style.less",
+                "raw": "\"!E:\\\\demo2\\\\fake-webpack\\\\examples\\\\loader\\\\style.less\"",
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 86
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 142
+                  }
+                }
+              }
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 78
+              },
+              "end": {
+                "line": 1,
+                "column": 143
+              }
+            }
+          }
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 144
+          }
+        }
+      },
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 144
+        }
+      }
+    }
+  ],
+  "sourceType": "script",
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 1,
+      "column": 144
+    }
+  }
+}

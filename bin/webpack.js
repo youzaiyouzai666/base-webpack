@@ -19,8 +19,8 @@ const options    = {
         {
             test: /\.less$/,
             use : [
-                'style-loader',
-                'less-loader'
+                'style-loader-fake',
+                'less-loader-fake'
             ]
         }
     ]

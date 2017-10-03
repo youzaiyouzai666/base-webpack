@@ -4,9 +4,8 @@
   "description": "模仿webpack写的一款简化版打包工具",
   "main": "app.js",
   "bin": {
-    "base-webpack":"./bin/webpack.js"
+    "base-webpack": "./bin/webpack.js"
   },
-
   "directories": {
     "doc": "doc"
   },
@@ -31,7 +30,9 @@
     "debug": "^3.1.0",
     "esprima": "^4.0.0",
     "less-loader": "^4.0.5",
+    "less-loader-fake": "^1.0.0",
     "style-loader": "^0.18.2",
+    "style-loader-fake": "^1.0.0",
     "yargs": "^8.0.2"
   }
 }
