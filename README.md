@@ -5,6 +5,7 @@
 
 ## 实现功能
 1. 将多个符合CommonJS规范的模块打包成一个JS文件，以供浏览器执行
+2. loader机制(例子 example/loader, 内置了less-loader和style-loader,可以加载less文件)
 
 ## TODO
 
